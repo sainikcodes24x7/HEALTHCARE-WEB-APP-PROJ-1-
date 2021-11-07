@@ -6254,3 +6254,12 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.blogposts{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-left: 40px;
+}
