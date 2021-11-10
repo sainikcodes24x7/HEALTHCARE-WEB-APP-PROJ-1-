@@ -184,7 +184,7 @@
               "
             > 
        
-          <form action="./heartapp.py" method="POST">   
+          <form action="{{ url_for('predict')}}" method="POST">   
             <div class="form-group">
             <label for="first"><strong>Age </strong></label> <input class="form-control" id="first" name="age" type="number" required="required"
             style="font-weight: bold"></div>
